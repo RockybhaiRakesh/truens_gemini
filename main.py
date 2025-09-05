@@ -13,9 +13,9 @@ from trulens.core.otel.instrument import instrument
 from trulens.otel.semconv.trace import SpanAttributes
 
 # ---------------- API Keys ----------------
-GEMINI_API_KEY = "AIzaSyCbwJW0un35h7rj4WxzRqVW_I-mxz_YZHw"
-CHROMA_API_KEY = "ck-3gyqeVuTuHyZ1vaGibCwsW8avmjZTuxCjz5VWp1pBTYz"
-CHROMA_TENANT = "6ffafc43-ad55-4687-98a1-a85df6d12130"
+GEMINI_API_KEY = ""
+CHROMA_API_KEY = ""
+CHROMA_TENANT = ""
 CHROMA_DATABASE = "gemini"
 
 # ---------------- Configure Gemini ----------------
@@ -151,3 +151,4 @@ if __name__ == "__main__":
     # ---------------- Run TruLens Dashboard ----------------
     from trulens.dashboard import run_dashboard
     run_dashboard(session)
+
